@@ -12,6 +12,10 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+strokeWeight(8);
+line(45,50,45,350);
+line(45,50,244,50);
+line(244,50,244,253);
 
   
 
