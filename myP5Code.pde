@@ -12,6 +12,7 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+//red box and associated lines
 strokeWeight(8);
 line(45,50,45,350);
 line(45,50,244,50);
