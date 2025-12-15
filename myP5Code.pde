@@ -7,7 +7,7 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(207, 207, 227);
+  fill(255, 255, 255);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
@@ -23,19 +23,33 @@ line(12,50,370,50);
 line(244,10,244,365);
 
 //bottom horizontal of red square
-line(45,253,380,253);
+line(45,253,370,253);
 
-//top right small line
-line(370,50,370,15);
+//line all the way right
+line(378,390,378,15);
 
 //random line on top of red square
-line(91,47,91,15)
+line(91,47,91,15);
 
 //random line next to red square
-line(45,147,14,147)
+line(44,147,14,147);
 
 //random line next to black square
-line(45,303,12,303)
+line(400,303,12,303);
+
+//bottom blue rectangle
+fill(37, 67, 138);
+rect(244,303,134,73);
+
+//red square
+fill(230, 62, 62);
+rect(45,50,199,203);
+
+//bottom most line
+line(144,376,377,376);
+
+//black square right line
+line()
   
 
 }
