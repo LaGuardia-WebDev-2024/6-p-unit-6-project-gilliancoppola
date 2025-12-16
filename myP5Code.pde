@@ -11,7 +11,26 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+ 
+//yellows, no outlines
+noStroke()
+fill(237, 186, 66);
+ quad(0,400,49,400,45,302,0,299);
+
+rect(240,0,142,144);
+
+strokeWeight(1);
+stroke(0,0,0);
+
+//little red, no outlines
+noStroke()
+fill(230, 62, 62);
+
+rect(374,301,30,100);
+
+strokeWeight(1);
+stroke(0,0,0);
+
 //left vertical of red square
 strokeWeight(8);
 line(45,50,45,385);
@@ -25,7 +44,7 @@ line(244,10,244,365);
 //bottom horizontal of red square
 line(45,253,370,253);
 
-//line all the way right
+//vertical line all the way right
 line(378,390,378,15);
 
 //random line on top of red square
@@ -33,6 +52,9 @@ line(91,47,91,15);
 
 //random line next to red square
 line(44,147,14,147);
+
+//line under big yellow
+line(250,147,377,147);
 
 //random line next to black square
 line(400,303,12,303);
@@ -46,11 +68,20 @@ fill(230, 62, 62);
 rect(45,50,199,203);
 
 //bottom most line
-line(144,376,377,376);
+line(146,376,377,376);
 
 //black square right line
-line()
-  
+line(146,256,146,385);
+
+//bottom of black square
+ line(46,350,243,350) ;
+
+//skinny black rectangle
+fill(0,0,0)
+rect(146,350,98,20);
+
+//vertical under big yellow
+line(310,150,310,252)
 
 }
 
