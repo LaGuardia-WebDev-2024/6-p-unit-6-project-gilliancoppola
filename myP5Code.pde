@@ -15,6 +15,7 @@ void draw(){
 //yellows, no outlines
 noStroke()
 fill(237, 186, 66);
+
  quad(0,400,49,400,45,302,0,299);
 
 rect(240,0,142,144);
@@ -24,9 +25,41 @@ stroke(0,0,0);
 
 //little red, no outlines
 noStroke()
-fill(230, 62, 62);
+fill(232, 51, 51);
 
 rect(374,301,30,100);
+
+strokeWeight(1);
+stroke(0,0,0);
+
+//background: light
+noStroke()
+
+fill(216, 220, 230);
+rect(240,144,142,155);
+
+rect(88,0,152,47);
+
+rect(0,47,50,104);
+
+rect(49,359,100,100);
+
+rect(149,380,225,20)
+
+strokeWeight(1);
+stroke(0,0,0);
+
+//background: dark
+noStroke()
+
+fill(193, 201, 219);
+rect(0,0,88,47);
+
+rect(382,0,21,300);
+
+rect(0,151,50,148);
+
+rect(150,256,90,90)
 
 strokeWeight(1);
 stroke(0,0,0);
@@ -36,7 +69,7 @@ strokeWeight(8);
 line(45,50,45,385);
 
 //top horizontal of red square
-line(12,50,370,50);
+line(12,50,374,50);
 
 //right vertical of red square
 line(244,10,244,365);
@@ -64,7 +97,7 @@ fill(37, 67, 138);
 rect(244,303,134,73);
 
 //red square
-fill(230, 62, 62);
+fill(232, 51, 51);
 rect(45,50,199,203);
 
 //bottom most line
@@ -81,7 +114,10 @@ fill(0,0,0)
 rect(146,350,98,20);
 
 //vertical under big yellow
-line(310,150,310,252)
+line(310,150,310,252);
+
+//black square
+rect(45,255,100,100)
 
 }
 
