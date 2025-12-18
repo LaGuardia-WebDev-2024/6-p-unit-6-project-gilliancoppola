@@ -1,5 +1,8 @@
 body {
    background-image: url(https://galeriemontblanc.com/cdn/shop/files/mondrian_arbre_rouge.jpg?v=1679240743&width=1500);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 html{
@@ -59,7 +62,7 @@ h2{
   align-items: flex-start;
   border-radius: 30px;
   }
-}
+
 
 
 
