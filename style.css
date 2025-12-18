@@ -1,15 +1,5 @@
 body {
-   background-image: linear-gradient(
-    to right, /* or 'to bottom' for horizontal stripes, or an angle like 45deg */
-    #DAA928 0%, /* Red starts at 0% */
-    #FB8931 25%, /* Red ends at 25% */
-    #E7541E 35%, /* Blue starts at 25% */
-    #509844 50%, /* Blue ends at 50% */
-    #D03499 60%, /* Green starts at 50% */
-    #1E7BC9 75%, /* Green ends at 75% */
-    #B121B6 85%, /* Yellow starts at 75% */
-    #DD133B 100% /* Yellow ends at 100% */
-  );
+   background-image: url(https://galeriemontblanc.com/cdn/shop/files/mondrian_arbre_rouge.jpg?v=1679240743&width=1500);
 }
 
 html{
@@ -25,7 +15,7 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 60px;
@@ -51,3 +41,27 @@ h2{
 #end{
   text-align: right;
 }
+
+
+
+
+   .yesteryear-regular {
+  font-family: "Yesteryear", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:xx-large; }
+
+ #title{
+    display: flex;
+  flex-wrap: wrap;
+  background-color:rgba(255, 255, 255, 0.5);
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 30px;
+  }
+}
+
+
+
+
+      
